@@ -1,7 +1,7 @@
 <?php
-$host = "db-aws-rds.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // RDS endpoint
-$db_user = "admin";  // DB master username
-$db_pass = "#Secret123.!";  // DB password
+$host = "data.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // RDS endpoint
+$db_user = "subha";  // DB master username
+$db_pass = "subha234";  // DB password
 $db_name = "LoginDB";  // DB name
 
 $conn = new mysqli($host, $db_user, $db_pass, $db_name);
